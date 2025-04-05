@@ -1,0 +1,9 @@
+/* Add this CSS in your global stylesheet or use Tailwind's `@apply` to add these utilities */
+.description {
+  max-height: 6rem;
+  /* Adjust the height as needed */
+  overflow-y: auto;
+  /* Allows scrolling if the text is too long */
+  text-overflow: ellipsis;
+  /* Optional: Add ellipsis if you want to truncate text */
+}
